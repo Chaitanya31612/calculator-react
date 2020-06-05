@@ -1,0 +1,21 @@
+.label {
+    color: $off-white;
+    font-size: $m-size;
+    font-weight: bold;
+    margin-right: $s-size;
+}
+
+.form {
+    display: flex;
+    padding: $m-size;
+}
+
+.form-input {
+    background: $dark-blue;
+    // border: none;    
+    outline: ridge;
+    border-bottom: .3rem solid darken($dark-blue, 10%);
+    margin: 0 $l-size $s-size 0;
+    color: white;
+    // padding: $s-size;
+}

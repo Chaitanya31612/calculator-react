@@ -1,0 +1,21 @@
+.header {
+    background: $off-black;
+    padding: $s-size 0;
+    color: white;
+    margin-bottom: $xl-size;
+    width:100%;
+}
+
+.header__title {
+    text-align: center;
+    font-size:$l-size;
+    margin: $s-size 0;
+}
+
+.header__subtitle {
+    color: $off-white;
+    text-align: center;
+    font-size: $m-size;
+    font-weight: 400;
+}
+
